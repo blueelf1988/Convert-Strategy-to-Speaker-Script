@@ -1,9 +1,0 @@
-.DS_Store
-*.DS_Store
-__MACOSX/
-*.zip
-node_modules/
-.claude/
-*.skill
-.agents/
-skills-lock.json
