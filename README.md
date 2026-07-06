@@ -30,26 +30,15 @@ Current version: `v2.0.0`
 
 - 可跟随方案逐页或逐章节朗读的现场口播稿；
 - 具有咨询顾问逻辑的结论先行表达；
-- 每一页附有 **「点睛 Insight」**——一句不重复主稿的犀利金句，供提案人现场画龙点睛；
-- 全程穿插 **「❓ 追问」**，持续邀请客户参与诊断、表达真实痛点和后果；
+- 每一页附有 **「Insight」**——一句不重复主稿的犀利金句，供提案人现场画龙点睛；
+- 全程穿插 **「追问」**，持续邀请客户参与诊断、表达真实痛点和后果；
 - 从问题共识自然推进到 MVP、试点或合作下一步的 **「销售收网」**；
 - 完整的 **收网工具包**：分支追问、高频异议处理、会前核验清单、提案人一页速记；
 - 经过结构化排版、符合视觉规范、可直接下载和使用的 Word 文档。
 
-`convert-strategy-to-speaker-script` is a Codex Skill for strategy consulting, brand marketing, GTM, annual planning, and business proposal scenarios.
-
-It reads a complete proposal document (including tables, appendices, budgets, KPIs, and roadmaps), extracts core insights, flags data and logic risks, and preserves the source slide order to produce:
-
-- A read-aloud speaker script that follows the source slide-by-slide;
-- Consultant-grade conclusion-first delivery;
-- A **「点睛 Insight」** punchline on every slide — a single sharp sentence that never repeats the main script, designed for the presenter to deliver as a "mic drop" closing remark;
-- **「❓ 追问」** questions woven throughout — drawing the client into diagnosis and self-articulation of pain points;
-- A **consultative sales close** that moves from problem consensus to MVP scope, owner, and next meeting;
-- A complete **close toolkit**: branching questions by concern area, objection handling, pre-meeting verification checklist, and a one-page presenter cheat sheet;
-- A professionally formatted Word document ready to download and use.
 
 默认适用于约 **80–100 分钟**的完整战略提案，也可以根据用户指定时长压缩或扩展。  
-Default duration: **80–100 minutes** for a full strategic proposal; can be calibrated to any specified duration.
+
 
 ---
 
@@ -67,10 +56,10 @@ V2 将节点顺序从「Insight 前置」改为「**主稿先行 + 点睛 Insigh
 |---|---|---|
 | 1 | **【对应展示内容】** | PPT 画面参考，提案人确认当前页 |
 | 2 | **【可直接朗读的主稿】** | 口播正文，口语化中文，短段落，明确路标 |
-| 3 | **【点睛 Insight】** | 一句话犀利总结，画龙点睛，不重复、不剧透 |
-| 4 | **【❓ 追问】** 或 **【顾问式确认】** | 让客户参与诊断，说出自己的痛点和业务后果 |
-| 5 | **【↪ 转场】** | 自然过渡到下一页，不生硬 |
-| 6 | **【⚠ 主持提示】** (可选) | 数据核实、节奏控制、风险提示——仅提案人看，不朗读 |
+| 3 | **【Insight】** | 一句话犀利总结，画龙点睛，不重复、不剧透 |
+| 4 | **【追问】** 或 **【顾问式确认】** | 让客户参与诊断，说出自己的痛点和业务后果 |
+| 5 | **【转场】** | 自然过渡到下一页，不生硬 |
+| 6 | **【⚠主持提示】** (可选) | 数据核实、节奏控制、风险提示——仅提案人看，不朗读 |
 
 ### 现场使用流程 / Presenter's Flow
 
@@ -353,106 +342,7 @@ npm install docx
 
 ---
 
-## 8. DOCX 生成 / DOCX Generation
-
-### 8.1 生成方式
-
-本 Skill 使用 npm `docx` 库在 Node.js 环境中直接生成 DOCX。生成脚本会根据 V2 视觉规范自动应用配色、行间距、标题层级和提示框样式。
-
-### 8.2 质量检查流程
-
-生成 DOCX 后应执行：
-
-1. 使用 LibreOffice 将 DOCX 渲染为 PDF
-2. 使用 `pdftoppm` 将 PDF 转为逐页图片
-3. 逐页目视检查布局、颜色、表格完整性和标题层级
-4. 修复缺陷后重新渲染
-
-### 8.3 常见问题
-
-- **字体差异**：不同系统的微软雅黑版本可能导致轻微排版差异，不影响朗读使用。
-- **表格截断**：确保列宽总和不超过页面宽度（A4 = 11906 DXA）。
-- **颜色显示**：LibreOffice 和 Microsoft Word 对颜色渲染可能略有差异，HEX 值已按 Word 标准校准。
-
----
-
-## 9. 口播语言标准 / Writing Standards
-
-- **短段落**，适合呼吸和停顿；
-- **先讲结论**，再解释证据；
-- 用"这意味着""更深一层的问题是"等路标帮助听众理解；
-- **比喻用于解释机制**，不为了炫技；
-- **尖锐观点局部使用**，整体保持专业克制；
-- 不将未经核验的数据说成确定事实；
-- 不使用空泛的"赋能、闭环、抓手"堆叠表达；
-- 每个 Insight 必须是**一句能让人身体前倾的话**，而不是换一种方式重复标题。
-
----
-
-## 10. 质量检查清单 / Quality Gates
-
-### 10.1 内容检查 / Content
-
-- [ ] 已完整阅读全部章节、表格、预算、KPI 和附录；
-- [ ] 已建立原方案标题索引与覆盖清单；
-- [ ] 口播稿保持原方案展示顺序；
-- [ ] 每个主要节点都有 对应展示内容 → 主稿 → 点睛 Insight → 追问 → 转场；
-- [ ] 每个点睛 Insight 是一句不重复主稿的犀利金句；
-- [ ] 客户能在结尾表达自己的业务瓶颈；
-- [ ] 收网能够推进到范围、Owner 和下一次会议；
-- [ ] 所有绝对化表述都有依据或已降级表达；
-- [ ] 数据冲突已修正或进入会前核验清单。
-
-### 10.2 Word 检查 / DOCX
-
-- [ ] 标题、列表和表格均为原生 Word 结构；
-- [ ] 无 Markdown 符号、占位符或工具引用残留；
-- [ ] 页眉、页码、标题层级与提示框显示正常；
-- [ ] 视觉配色符合 V2 规范（浅蓝 Insight / 浅紫追问）；
-- [ ] 正文行间距为 1.2×；
-- [ ] 表格没有截断或越界；
-- [ ] 已渲染并逐页检查；
-- [ ] 最终只交付正式 Word 文件。
-
----
-
-## 11. 数据与商业风险控制 / Risk Control
-
-以下情况必须进入"会前必须统一的数据与口径"：
-
-- 当前基线高于未来目标；
-- 预算明细与总额不一致；
-- 同一 KPI 在不同章节出现不同目标；
-- 月度目标与年度目标无法对应；
-- 阶段命名、日期或展会时间冲突；
-- 服务费、媒体费、制作费或税费边界不清；
-- MQL、SQL、有效询盘和销售接受率没有定义；
-- 使用"唯一、第一、全球领先"但缺少证据；
-- 市场规模、增长率和买家行为数据缺少来源或年份；
-- 竞品广告预算估算被表述成官方信息。
-
-> 一场高层提案的可信度，往往不是被战略方向击穿，而是被一个无法解释的数字击穿。
-
----
-
-## 12. 目录结构 / Directory Structure
-
-```text
-convert-strategy-to-speaker-script/
-├── SKILL.md                              # Skill 触发条件、执行流程和强制质量标准
-├── README.md                             # 本文件：功能介绍与使用说明
-├── assets/
-│   └── speaker-script-outline.md         # 口播稿标准内容骨架
-├── references/
-│   ├── analysis-method.md                # 全文分析、证据分层、矛盾审计与叙事方法
-│   └── consultative-sales.md             # 顾问式销售路径、问题阶梯、分支追问和异议处理
-└── scripts/
-    └── build_speaker_docx.py             # 结构化 Markdown 生成专业 Word 口播稿
-```
-
----
-
-## 13. 自定义与扩展 / Customization
+## 8. 自定义与扩展 / Customization
 
 ### 修改分析方法
 
@@ -472,7 +362,7 @@ convert-strategy-to-speaker-script/
 
 ---
 
-## 14. 版本历史 / Version History
+## 9. 版本历史 / Version History
 
 | 版本 | 日期 | 变更 |
 |---|---|---|
@@ -481,7 +371,7 @@ convert-strategy-to-speaker-script/
 
 ---
 
-## 15. Known Limitations / 已知限制
+## 10. Known Limitations / 已知限制
 
 - 输入方案质量会直接影响结论质量；缺少事实或数据时，Skill 只能提出假设与核验问题。
 - 无法替代客户内部对技术、案例、预算与商业承诺的最终确认。
@@ -491,7 +381,7 @@ convert-strategy-to-speaker-script/
 
 ---
 
-## 16. Roadmap
+## 11. Roadmap
 
 计划中的潜在增强方向：
 
@@ -507,7 +397,7 @@ convert-strategy-to-speaker-script/
 
 ---
 
-## 17. 贡献指南 / Contributing
+## 12. 贡献指南 / Contributing
 
 欢迎通过 Issue 或 Pull Request 提交：
 
@@ -530,15 +420,15 @@ convert-strategy-to-speaker-script/
 
 ---
 
-## 18. License
+## 13. License
 
 当前仓库在正式公开前应补充 `LICENSE` 文件。如果希望任何人都可以使用、修改与分发，通常可选择 MIT License。
 
 ---
 
-## 19. 致谢 / Acknowledgments
+## 14. 致谢 / Acknowledgments
 
-本 Skill 面向真实的战略提案现场而设计，强调三项能力：
+本 Skill 面向真实的品牌海外整合营销战略提案现场而设计，强调三项能力：
 
 1. 对方案内容的深度理解；
 2. 对管理层决策逻辑的清晰表达；
