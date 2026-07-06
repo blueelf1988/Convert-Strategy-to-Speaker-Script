@@ -1,4 +1,0 @@
-interface:
-  display_name: "方案转现场提案口播稿"
-  short_description: "深读战略方案并生成顾问式销售现场 Word 口播稿"
-  default_prompt: "Use $convert-strategy-to-speaker-script to analyze this strategy proposal and create a downloadable consultative-sales speaker script in Word."

@@ -1,0 +1,51 @@
+{
+  "name": "brand-building-skills",
+  "owner": {
+    "name": "Arnab Bag",
+    "url": "https://github.com/arnabbagxd"
+  },
+  "metadata": {
+    "description": "Brand building skills for AI agents — strategy, naming, identity, voice, positioning, messaging, auditing, and launch",
+    "version": "1.2.0",
+    "repository": "https://github.com/arnabbagxd/brand-building-skills"
+  },
+  "plugins": [
+    {
+      "name": "brand-building-skills",
+      "description": "29 brand building and marketing skills: brand strategy, naming, identity, voice, positioning, messaging, audit, guidelines, launch, rebranding, personal brand, manifesto, architecture, measurement, packaging, DTC marketing, B2B brand marketing, brand partnerships, UGC, ASO, WhatsApp marketing, email marketing, influencer marketing, Meta ads, and Google ads",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/brand-context",
+        "./skills/brand-strategy",
+        "./skills/brand-naming",
+        "./skills/brand-identity",
+        "./skills/brand-voice",
+        "./skills/brand-story",
+        "./skills/brand-positioning",
+        "./skills/brand-messaging",
+        "./skills/brand-audit",
+        "./skills/brand-guidelines",
+        "./skills/target-audience",
+        "./skills/competitor-branding",
+        "./skills/brand-launch",
+        "./skills/rebranding",
+        "./skills/personal-brand",
+        "./skills/brand-manifesto",
+        "./skills/brand-architecture",
+        "./skills/brand-measurement",
+        "./skills/brand-packaging",
+        "./skills/d2c-marketing",
+        "./skills/b2b-brand-marketing",
+        "./skills/brand-partnerships",
+        "./skills/ugc-strategy",
+        "./skills/aso",
+        "./skills/whatsapp-marketing",
+        "./skills/email-marketing",
+        "./skills/influencer-marketing",
+        "./skills/meta-ads",
+        "./skills/google-ads"
+      ]
+    }
+  ]
+}
