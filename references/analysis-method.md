@@ -1,112 +1,55 @@
-# Analysis Method
+# Analysis Method Reference
 
-## Contents
+## 全文分析方法 / Full-Document Analysis
 
-1. Full-text inventory
-2. Evidence classification
-3. Strategic diagnosis
-4. Contradiction audit
-5. Storyline design
-6. Node-level script conversion
+分析一份战略方案时，不应只读标题和目录，而应逐层穿透：
 
-## 1. Full-text inventory
+### 第一层：方案结构
+- 识别 Part / Chapter / Slide 的层级关系和节点总数
+- 建立标题索引，确保每个主要节点都被覆盖
 
-Extract and inspect:
+### 第二层：核心矛盾
+- 方案要解决的根本问题是什么？
+- 问题的结构性原因（而非表面现象）是什么？
+- 如果不解决，业务后果是什么？
 
-- title, audience, proposer, date, version;
-- all Parts/chapters and their stated conclusions;
-- diagnostic facts and competitor comparisons;
-- market, ICP, decision-chain, and channel assumptions;
-- positioning, USP, value pillars, message house, and content pillars;
-- execution roadmap, budget, KPI, team, and client dependencies;
-- appendices, footnotes, images, and embedded charts.
+### 第三层：证据链
+- 方案中哪些是事实（Fact），哪些是推论（Inference），哪些是建议（Recommendation），哪些是未核验的假设（Assumption）？
+- 数据之间的逻辑是否自洽？
+- 是否存在倒挂的基线（当前值高于目标值）？
 
-Create a heading index before writing. Use it as the coverage checklist.
+### 第四层：叙事线
+- 方案的"故事"是什么？从哪开始，到哪结束？
+- 叙事是否有力？是否有遗漏的关键论证环节？
 
-## 2. Evidence classification
+## 证据分层 / Evidence Grading
 
-Classify important statements internally:
-
-| Type | Meaning | Script treatment |
+| 类型 | 定义 | 口播处理方式 |
 |---|---|---|
-| F · Fact | Explicit source fact or measured audit value | State with source context; retain qualifiers |
-| I · Inference | Interpretation derived from facts | Use “这意味着/我们的判断是” |
-| R · Recommendation | Proposed future action | Use “建议/优先/可以验证” |
-| A · Assumption | Unverified commercial or market assumption | Flag for validation; do not present as certainty |
+| **Fact** | 方案明确给出的事实、审计数据或可验证的信息 | 保留来源、时间戳、限定条件 |
+| **Inference** | 从事实中推导出的策略判断 | 使用"这意味着""我们的判断是" |
+| **Recommendation** | 对未来行动的建议 | 使用"建议""优先""可以验证的是" |
+| **Assumption** | 尚未核实的市场或商业假设 | 放入会前核验清单，不作为确定事实承诺 |
 
-Build the argument as F → I → business implication → R. Avoid recommendation without diagnosis.
+## 矛盾审计 / Contradiction Audit
 
-## 3. Strategic diagnosis
+生成口播稿前，检查以下类型的内部矛盾：
 
-For each Part, answer:
+1. **数字矛盾**：同一KPI在不同章节出现不同数值
+2. **时间线矛盾**：阶段命名、日期或展会时间冲突
+3. **预算矛盾**：明细之和与总额不一致
+4. **范围矛盾**：服务费、媒体费、制作费、税费边界不清
+5. **术语矛盾**：MQL、SQL、有效询盘等定义在文档中不一致
+6. **表述升级**："领先"被写成"第一"，"少数"被写成"唯一"
 
-1. What is the visible symptom?
-2. What is the structural cause?
-3. What business consequence follows?
-4. What choice must management make?
-5. What evidence would reduce uncertainty?
+发现矛盾时，不应悄悄修复——应标记在主持提示或会前核验清单中。
 
-Prefer one governing tension for the full proposal, such as:
+## 叙事方法 / Narrative Method
 
-- product strength vs. market recognition;
-- channel activity vs. growth system;
-- traffic quantity vs. customer quality;
-- technical facts vs. buyer value;
-- global ambition vs. focused resource allocation.
+每个章节的口播叙事应回答五个问题：
 
-The opening and final close must return to this governing tension.
-
-## 4. Contradiction audit
-
-Check at least:
-
-- current baseline greater than a future target;
-- totals that do not equal line items;
-- the same KPI with different end values or time points;
-- annual targets incompatible with monthly targets;
-- phase names/dates that conflict across roadmaps;
-- “included” versus “not included” fee ambiguity;
-- undefined MQL, SQL, effective lead, traffic, conversion, or brand-search terms;
-- absolute claims without evidence;
-- market statistics without source/year/scope;
-- competitor spend presented as official instead of estimated.
-
-Do not let a questionable number dominate the live meeting. Add a presenter-only “会前必须统一的数据与口径” section.
-
-## 5. Storyline design
-
-Use a conclusion-first consulting sequence while preserving source order:
-
-1. Meeting contract: the three management questions to answer.
-2. Governing diagnosis: the central business tension.
-3. Evidence: where and how the system is breaking.
-4. Market and buyer: where to focus and whom to influence.
-5. Strategic answer: positioning, narrative, and operating system.
-6. Execution: channels, content, roadmap, and tests.
-7. Investment: budget, KPI, risk, and collaboration.
-8. Consultative close: client articulation and next-step commitment.
-
-Use the original Part order. Within a Part, consolidate only when repetition would make speech cumbersome.
-
-## 6. Node-level script conversion
-
-For each node, write:
-
-**对应展示** — exact source heading/table/diagram.
-
-**核心 Insight** — one sentence that exposes the management meaning.
-
-**主稿** — 3–8 short spoken paragraphs:
-
-- state the conclusion;
-- explain the evidence;
-- translate it into business meaning;
-- introduce a memorable analogy only if it clarifies;
-- land the recommendation or decision.
-
-**顾问式追问** — a question the client can answer from experience. Ask about manifestations, consequences, priorities, or criteria; avoid rhetorical questions.
-
-**转场** — one sentence explaining why the next node follows.
-
-**主持提示** — optional, for claim risk, source caveats, political sensitivity, or timing.
-
+1. 表面问题是什么？
+2. 结构性原因是什么？
+3. 对业务增长有什么后果？
+4. 管理层需要做什么选择？
+5. 哪些证据可以降低不确定性？

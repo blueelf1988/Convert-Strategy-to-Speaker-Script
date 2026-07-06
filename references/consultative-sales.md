@@ -1,78 +1,34 @@
-# Consultative Sales Framework
+# Consultative Sales Reference
 
-## Contents
+## 七阶段提案路径 / Seven-Stage Proposal Path
 
-1. Seven-stage path
-2. Question ladder
-3. Four answer branches
-4. Commitment ladder
-5. Objection handling
+1. **建立共同目标** — 开场即明确：今天讨论的不是推广方案，而是增长命题。
+2. **重构客户问题** — 把客户的战术焦虑升级为战略问题。
+3. **用证据完成诊断** — 数据说话，揭示隐藏的业务后果。
+4. **放大不行动的代价** — 让客户自己算出"什么都不做的成本"。
+5. **共创增长标准** — 一起定义：什么算成功？
+6. **用 MVP 降低风险** — 不确定时，先用小范围验证假设。
+7. **引导下一步承诺** — 三件事收网：范围、Owner、下一次会议时间。
 
-## 1. Seven-stage path
+## 可选销售框架 / Adaptable Frameworks
 
-1. **共同目标** — Define the management outcome, not the marketing deliverable.
-2. **问题重构** — Reframe tactical symptoms as a structural growth problem.
-3. **证据诊断** — Show observable gaps and invite correction.
-4. **不行动代价** — Connect gaps to lost eligibility, price pressure, slow sales, or poor learning.
-5. **共创标准** — Agree on priority market, ICP, value proposition, and lead quality.
-6. **降低风险** — Propose a bounded test with explicit learning questions and failure triggers.
-7. **行动承诺** — Confirm scope, owner, inputs, and next meeting date.
+本文件可被自定义以适配以下框架（均为面向决策者听众的提案方法）：
 
-## 2. Question ladder
+- **SPIN Selling**：Situation → Problem → Implication → Need-payoff
+- **Challenger Sale**：Teach → Tailor → Take Control
+- **价值销售 / Value-Based Selling**：以客户业务成果定价，而非以服务成本定价
+- **MEDDICC**：Metrics → Economic Buyer → Decision Criteria → Decision Process → Identify Pain → Champion → Competition
 
-Move from easy to consequential:
+## 问题阶梯 / Question Ladder
 
-1. **现状** — “过去一年最常出现的情况是什么？”
-2. **表现** — “这个问题在销售/客户/区域上怎样表现？”
-3. **影响** — “它正在影响采购资格、议价、周期，还是客户结构？”
-4. **优先级** — “如果只能先解决一个，哪个最重要？”
-5. **标准** — “什么结果会让各位认为方向成立？”
-6. **约束** — “内部素材、数据、响应和 Owner 的限制是什么？”
-7. **承诺** — “是否愿意用一个限定范围的试点验证？”
+1. "今天听完方案，你觉得最卡脖子的一件事是什么？"（让客户说）
+2. "如果什么都不做，一年后会错失什么？"（让客户想）
+3. "如果只做一个最小单元的测试，什么最值得先验证？"（让客户动）
 
-Do not ask all questions mechanically. Choose those that advance the current decision.
+## 收网三件事 / Three Close Decisions
 
-## 3. Four answer branches
+每次会议结束时必须明确：
 
-### Brand recognition
-
-Probe whether the brand is unknown, treated as a cheap alternative, excluded from shortlists, or unable to command price. Summarize the issue as procurement eligibility and pricing power, not vanity awareness.
-
-### Lead quantity/quality
-
-Separate quantity from quality. Define region, industry, company size, application, purchase timing, and sales capacity. Summarize as customer-structure and acceptance-rate management.
-
-### Conversion cycle
-
-Identify the stalled stage: technical proof, service, price, internal approval, compliance, or local response. Summarize as a trust-evidence gap, not only a traffic problem.
-
-### Internal coordination/data
-
-Check tracking from lead to sales acceptance, meeting, quote, opportunity value, and loss reason. Confirm decision rights and owner. Summarize as an operating-system prerequisite.
-
-## 4. Commitment ladder
-
-Never jump directly to contract approval.
-
-1. Confirm the problem in the client's words.
-2. Confirm the cost or risk of maintaining the status quo.
-3. Confirm the priority market/product/ICP.
-4. Confirm the experiment and success criteria.
-5. Confirm the client-side owner and required inputs.
-6. Confirm a dated workshop or kickoff.
-
-Close with: “今天先确认主战范围、项目 Owner 和下一次工作坊时间；年度细节可由试点数据决定。”
-
-## 5. Objection handling
-
-Use: acknowledge → diagnose → reframe → bounded next step.
-
-Common objections to cover:
-
-- “以前投过，效果不好” — separate past variables and data gaps.
-- “成交周期太长” — use valid leading indicators, not a 90-day order promise.
-- “主要靠经销商” — position digital as demand visibility and dealer enablement.
-- “预算太高” — shrink scope, not the essential closed loop.
-- “能否保证询盘/成交” — commit to process, transparency, and optimization; avoid unconditional guarantees.
-- “内部没有素材/时间” — build a repurposing mechanism but require stable technical, case, and sales inputs.
-
+1. 范围/市场 — 先做哪一个市场？
+2. 负责人 — 谁在客户侧推动下一步？
+3. 下次会议 — 什么时间、带什么来？
